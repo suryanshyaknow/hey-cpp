@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Irrelevants
+.ipynb_checkpoints
