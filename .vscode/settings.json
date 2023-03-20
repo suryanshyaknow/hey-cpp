@@ -34,5 +34,8 @@
     "**/.vscode/**"
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
-  "workbench.colorTheme": "Default Dark+ Experimental"
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "files.associations": {
+    "iomanip": "cpp"
+  }
 }
