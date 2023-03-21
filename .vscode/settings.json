@@ -36,6 +36,8 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "workbench.colorTheme": "Default Dark+ Experimental",
   "files.associations": {
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "iostream": "cpp",
+    "ostream": "cpp"
   }
 }

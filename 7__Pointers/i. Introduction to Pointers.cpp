@@ -32,4 +32,6 @@ int main()
     cout << "..which is same as \"the address of the pointer `b` i.e. &b\": " << &b << endl;
     cout << "\nThe value stored at the address that `c` holds on to is (of course `&a`): " << *c << endl;
     cout << "\nThe value at address stored in the pointer `b` that is pointed by none other than `c`: " << **c << endl;
+
+    return 0;
 }
