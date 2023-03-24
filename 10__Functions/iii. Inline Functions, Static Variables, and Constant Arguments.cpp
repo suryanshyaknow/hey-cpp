@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 // ############################# INLINE FUNCTIONS ###################################
 /*
 Execution of funciton engages in somewhat 3-4 step process, viz:
@@ -68,7 +69,8 @@ int main()
   cout << "The sum of " << s << " and " << d << " is " << summer(s, d) << endl;
   cout << "The sum of " << s << " and " << d << " is " << summer(s, d) << endl;
 
-  cout << "\n" << next() << endl;
+  cout << "\n"
+       << next() << endl;
   cout << next() << endl;
   cout << next() << endl;
   cout << next() << endl;
