@@ -33,14 +33,14 @@ public:
     friend istream &operator>>(istream &in, Person &p);
 };
 
-// Defining stream extraction operator
+// Defining 'stream insertion' operator
 ostream &operator<<(ostream &out, const Person &p)
 {
     out << "Name: " << p.name << ", Age: " << p.age;
     return out;
 }
 
-// Defining stream insertion operator
+// Defining 'stream extraction' operator
 istream &operator>>(istream &in, Person &p)
 {
     cout << "Enter name: ";
