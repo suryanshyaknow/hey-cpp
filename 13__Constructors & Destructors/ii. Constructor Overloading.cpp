@@ -56,7 +56,10 @@ ostream &operator<<(ostream &out, const Complex &c)
 }
 
 int main()
-{
+{   
+    Complex c;
+    cout << c << endl;
+    
     cout << Complex() << endl;
     cout << Complex(34) << endl;
     cout << Complex(37, 56) << endl;

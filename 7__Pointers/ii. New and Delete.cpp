@@ -32,6 +32,11 @@ using namespace std;
 int main()
 {
   int *ptr = new int(23); // declared and initialized a pointer `ptr` dynamically i.e. in the heap
+  /*
+  NOTE: When we use the `new` keyword to allocate memory in the heap, there is a unique aspect to it:
+  the memory chunk created does not have a variable name assigned to it. Instead, the memory can only be accessed
+  through a pointer for its entire lifetime.
+  */
   cout << "ptr = " << ptr << endl;
   cout << "ptr = " << *ptr << endl;                  // dereferenced `ptr`
   cout << "sizeof(*ptr) = " << sizeof(*ptr) << endl; // size occupied by the value present at the location `ptr`
