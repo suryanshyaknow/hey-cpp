@@ -22,14 +22,19 @@ template <class T> // T could be any datatype here whatsoever
 class Vector
 {
 public:
-    T *vec;
+    T *vec; // initialized a pointer
 
     Vector();
     T dotProduct(Vector<T> &v);
     void crossProduct(Vector<T> &v);
 
     template <class U>                                            // declaring a template function
-    friend ostream &operator<<(ostream &out, const Vector<U> &v); // overloading the 'stream insertion' operator
+    friend ostream &operator<<(ostream &out, const Vector<T> &v); // overloading the 'stream insertion' operator
+
+    /* NOTE: If the friend function would not have been defined as a template function, it would only work with 
+    the specific data type used when defining the Vector class (e.g. Vector<int>). Defining it as a template 
+    function allows it to work with any data type used for the Vector class (e.g. Vector<float>, Vector<double>, etc.).
+    */
 };
 
 template <class T>

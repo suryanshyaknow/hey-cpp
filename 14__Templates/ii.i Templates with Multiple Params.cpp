@@ -6,7 +6,7 @@ using namespace std;
 * Templates can also have multiple parameters, allowing us to create more complex generic data structures
    and algorithms.
 
-* Nothing fancy it's just that we can parameters holding datatypes as many as we desire.
+* Nothing fancy it's just that we can pass parameters holding datatypes as many as we desire.
 */
 
 template <typename T1, typename T2>
